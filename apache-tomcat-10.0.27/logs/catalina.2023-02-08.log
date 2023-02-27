@@ -1,0 +1,977 @@
+08-Feb-2023 00:13:53.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+08-Feb-2023 00:13:53.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+08-Feb-2023 00:13:53.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+08-Feb-2023 00:13:53.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Feb-2023 00:13:53.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6
+08-Feb-2023 00:13:53.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Feb-2023 00:13:53.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/daimingyang/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home
+08-Feb-2023 00:13:53.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8-LTS
+08-Feb-2023 00:13:53.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+08-Feb-2023 00:13:53.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 00:13:53.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 00:13:53.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Feb-2023 00:13:53.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Feb-2023 00:13:53.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Feb-2023 00:13:53.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Feb-2023 00:13:53.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Feb-2023 00:13:53.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/conf/logging.properties
+08-Feb-2023 00:13:53.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Feb-2023 00:13:53.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Feb-2023 00:13:53.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Feb-2023 00:13:53.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Feb-2023 00:13:53.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Feb-2023 00:13:53.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 00:13:53.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 00:13:53.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/temp
+08-Feb-2023 00:13:53.609 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/daimingyang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Feb-2023 00:13:53.753 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 00:13:53.770 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [261] milliseconds
+08-Feb-2023 00:13:53.789 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Feb-2023 00:13:53.789 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+08-Feb-2023 00:13:53.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs]
+08-Feb-2023 00:13:53.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs] has finished in [131] ms
+08-Feb-2023 00:13:53.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager]
+08-Feb-2023 00:13:53.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager] has finished in [20] ms
+08-Feb-2023 00:13:53.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples]
+08-Feb-2023 00:13:54.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples] has finished in [121] ms
+08-Feb-2023 00:13:54.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT]
+08-Feb-2023 00:13:54.074 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT] has finished in [9] ms
+08-Feb-2023 00:13:54.074 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager]
+08-Feb-2023 00:13:54.084 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager] has finished in [9] ms
+08-Feb-2023 00:13:54.085 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 00:13:54.093 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [323] milliseconds
+08-Feb-2023 00:14:04.097 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war]
+08-Feb-2023 00:14:05.422 WARNING [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+08-Feb-2023 00:14:05.444 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Feb-2023 00:14:05.981 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war] has finished in [1,884] ms
+08-Feb-2023 00:14:16.495 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HomeWork2-1.0-SNAPSHOT]
+08-Feb-2023 00:14:16.517 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war]
+08-Feb-2023 00:14:17.729 WARNING [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+08-Feb-2023 00:14:17.744 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Feb-2023 00:14:18.134 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war] has finished in [1,618] ms
+08-Feb-2023 00:14:18.134 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2]
+08-Feb-2023 00:14:19.054 WARNING [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+08-Feb-2023 00:14:19.069 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Feb-2023 00:14:19.464 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2] has finished in [1,330] ms
+08-Feb-2023 00:14:29.975 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HomeWork2-1.0-SNAPSHOT]
+08-Feb-2023 00:14:29.994 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HomeWork2]
+08-Feb-2023 00:14:30.016 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2.war]
+08-Feb-2023 00:14:31.182 WARNING [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+08-Feb-2023 00:14:31.195 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Feb-2023 00:14:31.571 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2.war] has finished in [1,556] ms
+08-Feb-2023 00:17:21.228 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+08-Feb-2023 00:17:26.431 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Feb-2023 00:17:26.432 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 00:17:26.434 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Feb-2023 00:17:26.442 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 00:17:26.445 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:19:47.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+08-Feb-2023 01:19:47.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+08-Feb-2023 01:19:47.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+08-Feb-2023 01:19:47.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Feb-2023 01:19:47.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6
+08-Feb-2023 01:19:47.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Feb-2023 01:19:47.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/daimingyang/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home
+08-Feb-2023 01:19:47.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8-LTS
+08-Feb-2023 01:19:47.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+08-Feb-2023 01:19:47.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:19:47.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:19:47.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Feb-2023 01:19:47.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Feb-2023 01:19:47.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Feb-2023 01:19:47.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Feb-2023 01:19:47.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Feb-2023 01:19:47.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/conf/logging.properties
+08-Feb-2023 01:19:47.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Feb-2023 01:19:47.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Feb-2023 01:19:47.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Feb-2023 01:19:47.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Feb-2023 01:19:47.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Feb-2023 01:19:47.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:19:47.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:19:47.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/temp
+08-Feb-2023 01:19:47.213 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/daimingyang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Feb-2023 01:19:47.356 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:19:47.373 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [265] milliseconds
+08-Feb-2023 01:19:47.392 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Feb-2023 01:19:47.392 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+08-Feb-2023 01:19:47.400 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2.war]
+08-Feb-2023 01:19:47.774 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2.war] has finished in [374] ms
+08-Feb-2023 01:19:47.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs]
+08-Feb-2023 01:19:47.787 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs] has finished in [13] ms
+08-Feb-2023 01:19:47.787 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager]
+08-Feb-2023 01:19:47.808 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager] has finished in [21] ms
+08-Feb-2023 01:19:47.808 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples]
+08-Feb-2023 01:19:47.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples] has finished in [127] ms
+08-Feb-2023 01:19:47.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT]
+08-Feb-2023 01:19:47.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT] has finished in [9] ms
+08-Feb-2023 01:19:47.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager]
+08-Feb-2023 01:19:47.954 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager] has finished in [10] ms
+08-Feb-2023 01:19:47.956 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:19:47.968 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [594] milliseconds
+08-Feb-2023 01:20:38.519 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HomeWork2]
+08-Feb-2023 01:20:58.570 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2]
+08-Feb-2023 01:20:59.690 WARNING [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+08-Feb-2023 01:20:59.712 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Feb-2023 01:20:59.714 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2] has finished in [1,144] ms
+08-Feb-2023 01:21:20.238 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HomeWork2]
+08-Feb-2023 01:21:30.274 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2.war]
+08-Feb-2023 01:21:30.530 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2.war] has finished in [256] ms
+08-Feb-2023 01:34:51.812 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HomeWork2]
+08-Feb-2023 01:34:51.848 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war]
+08-Feb-2023 01:34:53.138 WARNING [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+08-Feb-2023 01:34:53.157 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Feb-2023 01:34:53.160 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war] has finished in [1,312] ms
+08-Feb-2023 01:37:08.682 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Feb-2023 01:37:08.683 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:37:08.687 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Feb-2023 01:37:08.695 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:37:08.699 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:37:09.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+08-Feb-2023 01:37:09.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+08-Feb-2023 01:37:09.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+08-Feb-2023 01:37:09.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Feb-2023 01:37:09.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6
+08-Feb-2023 01:37:09.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Feb-2023 01:37:09.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/daimingyang/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home
+08-Feb-2023 01:37:09.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8-LTS
+08-Feb-2023 01:37:09.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+08-Feb-2023 01:37:09.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:37:09.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:37:09.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Feb-2023 01:37:09.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Feb-2023 01:37:09.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Feb-2023 01:37:09.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Feb-2023 01:37:09.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Feb-2023 01:37:09.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/conf/logging.properties
+08-Feb-2023 01:37:09.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Feb-2023 01:37:09.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Feb-2023 01:37:09.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Feb-2023 01:37:09.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Feb-2023 01:37:09.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Feb-2023 01:37:09.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:37:09.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:37:09.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/temp
+08-Feb-2023 01:37:09.755 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/daimingyang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Feb-2023 01:37:09.903 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:37:09.920 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [271] milliseconds
+08-Feb-2023 01:37:09.940 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Feb-2023 01:37:09.940 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+08-Feb-2023 01:37:09.948 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war]
+08-Feb-2023 01:37:11.104 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+08-Feb-2023 01:37:11.169 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Feb-2023 01:37:11.189 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war] has finished in [1,241] ms
+08-Feb-2023 01:37:11.189 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs]
+08-Feb-2023 01:37:11.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs] has finished in [9] ms
+08-Feb-2023 01:37:11.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager]
+08-Feb-2023 01:37:11.214 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager] has finished in [16] ms
+08-Feb-2023 01:37:11.214 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples]
+08-Feb-2023 01:37:11.301 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples] has finished in [87] ms
+08-Feb-2023 01:37:11.301 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT]
+08-Feb-2023 01:37:11.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT] has finished in [8] ms
+08-Feb-2023 01:37:11.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager]
+08-Feb-2023 01:37:11.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager] has finished in [9] ms
+08-Feb-2023 01:37:11.320 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:37:11.329 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1409] milliseconds
+08-Feb-2023 01:38:11.875 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HomeWork2-1.0-SNAPSHOT]
+08-Feb-2023 01:38:11.907 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war]
+08-Feb-2023 01:38:13.122 WARNING [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+08-Feb-2023 01:38:13.139 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Feb-2023 01:38:13.141 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war] has finished in [1,235] ms
+08-Feb-2023 01:38:13.141 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2]
+08-Feb-2023 01:38:14.217 WARNING [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+08-Feb-2023 01:38:14.233 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Feb-2023 01:38:14.235 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2] has finished in [1,094] ms
+08-Feb-2023 01:39:19.218 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Feb-2023 01:39:19.219 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:19.221 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Feb-2023 01:39:19.230 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:19.232 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:20.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+08-Feb-2023 01:39:20.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+08-Feb-2023 01:39:20.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+08-Feb-2023 01:39:20.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Feb-2023 01:39:20.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6
+08-Feb-2023 01:39:20.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Feb-2023 01:39:20.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/daimingyang/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home
+08-Feb-2023 01:39:20.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8-LTS
+08-Feb-2023 01:39:20.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+08-Feb-2023 01:39:20.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:20.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:20.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Feb-2023 01:39:20.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Feb-2023 01:39:20.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Feb-2023 01:39:20.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Feb-2023 01:39:20.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Feb-2023 01:39:20.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/conf/logging.properties
+08-Feb-2023 01:39:20.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Feb-2023 01:39:20.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Feb-2023 01:39:20.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Feb-2023 01:39:20.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Feb-2023 01:39:20.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Feb-2023 01:39:20.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:20.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:20.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/temp
+08-Feb-2023 01:39:20.548 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/daimingyang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Feb-2023 01:39:20.681 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:20.698 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [266] milliseconds
+08-Feb-2023 01:39:20.716 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Feb-2023 01:39:20.717 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+08-Feb-2023 01:39:20.727 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@52f27fbd]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@52f27fbd]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2 ] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 30 more
+08-Feb-2023 01:39:20.728 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:938)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@52f27fbd]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@52f27fbd]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2 ] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 30 more
+08-Feb-2023 01:39:20.729 SEVERE [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+	org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:938)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:938)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@52f27fbd]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@52f27fbd]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2 ] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 30 more
+08-Feb-2023 01:39:20.729 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:20.729 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Feb-2023 01:39:20.730 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:33.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+08-Feb-2023 01:39:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+08-Feb-2023 01:39:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+08-Feb-2023 01:39:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Feb-2023 01:39:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6
+08-Feb-2023 01:39:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Feb-2023 01:39:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/daimingyang/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home
+08-Feb-2023 01:39:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8-LTS
+08-Feb-2023 01:39:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+08-Feb-2023 01:39:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:33.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Feb-2023 01:39:33.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Feb-2023 01:39:33.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Feb-2023 01:39:33.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Feb-2023 01:39:33.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Feb-2023 01:39:33.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/conf/logging.properties
+08-Feb-2023 01:39:33.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Feb-2023 01:39:33.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Feb-2023 01:39:33.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Feb-2023 01:39:33.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Feb-2023 01:39:33.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Feb-2023 01:39:33.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:33.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:33.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/temp
+08-Feb-2023 01:39:33.968 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/daimingyang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Feb-2023 01:39:34.097 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:34.113 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [257] milliseconds
+08-Feb-2023 01:39:34.129 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Feb-2023 01:39:34.129 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+08-Feb-2023 01:39:34.139 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1033576a]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1033576a]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2 ] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 30 more
+08-Feb-2023 01:39:34.140 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:938)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1033576a]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1033576a]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2 ] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 30 more
+08-Feb-2023 01:39:34.140 SEVERE [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+	org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:938)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:938)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1033576a]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1033576a]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2 ] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 30 more
+08-Feb-2023 01:39:34.141 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:34.141 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Feb-2023 01:39:34.142 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:35.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+08-Feb-2023 01:39:35.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+08-Feb-2023 01:39:35.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+08-Feb-2023 01:39:35.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Feb-2023 01:39:35.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6
+08-Feb-2023 01:39:35.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Feb-2023 01:39:35.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/daimingyang/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home
+08-Feb-2023 01:39:35.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8-LTS
+08-Feb-2023 01:39:35.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+08-Feb-2023 01:39:35.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:35.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/conf/logging.properties
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:35.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/temp
+08-Feb-2023 01:39:35.032 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/daimingyang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Feb-2023 01:39:35.162 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:35.178 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [259] milliseconds
+08-Feb-2023 01:39:35.195 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Feb-2023 01:39:35.195 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+08-Feb-2023 01:39:35.206 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@76494737]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@76494737]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2 ] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 30 more
+08-Feb-2023 01:39:35.207 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:938)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@76494737]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@76494737]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2 ] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 30 more
+08-Feb-2023 01:39:35.207 SEVERE [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+	org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:938)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:938)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@76494737]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@76494737]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2 ] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 30 more
+08-Feb-2023 01:39:35.207 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:35.207 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Feb-2023 01:39:35.208 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:47.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+08-Feb-2023 01:39:47.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+08-Feb-2023 01:39:47.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+08-Feb-2023 01:39:47.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Feb-2023 01:39:47.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6
+08-Feb-2023 01:39:47.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Feb-2023 01:39:47.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/daimingyang/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home
+08-Feb-2023 01:39:47.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8-LTS
+08-Feb-2023 01:39:47.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+08-Feb-2023 01:39:47.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:47.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:47.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Feb-2023 01:39:47.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Feb-2023 01:39:47.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Feb-2023 01:39:47.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Feb-2023 01:39:47.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Feb-2023 01:39:47.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/conf/logging.properties
+08-Feb-2023 01:39:47.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Feb-2023 01:39:47.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Feb-2023 01:39:47.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Feb-2023 01:39:47.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Feb-2023 01:39:47.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Feb-2023 01:39:47.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:47.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:39:47.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/temp
+08-Feb-2023 01:39:47.627 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/daimingyang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Feb-2023 01:39:47.756 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:47.771 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [252] milliseconds
+08-Feb-2023 01:39:47.788 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Feb-2023 01:39:47.788 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+08-Feb-2023 01:39:47.798 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@52f27fbd]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@52f27fbd]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2 ] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 30 more
+08-Feb-2023 01:39:47.799 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:938)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@52f27fbd]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@52f27fbd]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2 ] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 30 more
+08-Feb-2023 01:39:47.799 SEVERE [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+	org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:938)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:938)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@52f27fbd]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@52f27fbd]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2 ] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 30 more
+08-Feb-2023 01:39:47.800 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:39:47.800 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Feb-2023 01:39:47.800 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:42:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+08-Feb-2023 01:42:17.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+08-Feb-2023 01:42:17.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+08-Feb-2023 01:42:17.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Feb-2023 01:42:17.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6
+08-Feb-2023 01:42:17.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Feb-2023 01:42:17.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/daimingyang/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home
+08-Feb-2023 01:42:17.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8-LTS
+08-Feb-2023 01:42:17.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+08-Feb-2023 01:42:17.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:42:17.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:42:17.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Feb-2023 01:42:17.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Feb-2023 01:42:17.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Feb-2023 01:42:17.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Feb-2023 01:42:17.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Feb-2023 01:42:17.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/conf/logging.properties
+08-Feb-2023 01:42:17.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Feb-2023 01:42:17.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Feb-2023 01:42:17.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Feb-2023 01:42:17.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Feb-2023 01:42:17.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Feb-2023 01:42:17.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:42:17.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+08-Feb-2023 01:42:17.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/temp
+08-Feb-2023 01:42:17.536 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/daimingyang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Feb-2023 01:42:17.677 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:42:17.694 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [262] milliseconds
+08-Feb-2023 01:42:17.713 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Feb-2023 01:42:17.714 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+08-Feb-2023 01:42:17.721 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2.war]
+08-Feb-2023 01:42:18.955 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+08-Feb-2023 01:42:19.019 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Feb-2023 01:42:19.040 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2.war] has finished in [1,319] ms
+08-Feb-2023 01:42:19.041 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs]
+08-Feb-2023 01:42:19.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs] has finished in [10] ms
+08-Feb-2023 01:42:19.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager]
+08-Feb-2023 01:42:19.068 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager] has finished in [17] ms
+08-Feb-2023 01:42:19.068 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples]
+08-Feb-2023 01:42:19.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples] has finished in [86] ms
+08-Feb-2023 01:42:19.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT]
+08-Feb-2023 01:42:19.162 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT] has finished in [8] ms
+08-Feb-2023 01:42:19.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager]
+08-Feb-2023 01:42:19.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager] has finished in [10] ms
+08-Feb-2023 01:42:19.174 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 01:42:19.183 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1489] milliseconds
+08-Feb-2023 15:04:02.005 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+08-Feb-2023 15:08:05.207 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Feb-2023 15:08:05.208 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 15:08:05.212 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Feb-2023 15:08:05.231 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Feb-2023 15:08:05.237 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

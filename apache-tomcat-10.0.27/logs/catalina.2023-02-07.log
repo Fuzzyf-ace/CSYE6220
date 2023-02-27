@@ -1,0 +1,181 @@
+07-Feb-2023 20:19:00.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+07-Feb-2023 20:19:00.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+07-Feb-2023 20:19:00.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+07-Feb-2023 20:19:00.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Feb-2023 20:19:00.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6
+07-Feb-2023 20:19:00.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+07-Feb-2023 20:19:00.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/daimingyang/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home
+07-Feb-2023 20:19:00.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8-LTS
+07-Feb-2023 20:19:00.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+07-Feb-2023 20:19:00.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+07-Feb-2023 20:19:00.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+07-Feb-2023 20:19:00.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Feb-2023 20:19:00.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Feb-2023 20:19:00.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Feb-2023 20:19:00.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Feb-2023 20:19:00.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Feb-2023 20:19:00.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/conf/logging.properties
+07-Feb-2023 20:19:00.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Feb-2023 20:19:00.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Feb-2023 20:19:00.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Feb-2023 20:19:00.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Feb-2023 20:19:00.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Feb-2023 20:19:00.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+07-Feb-2023 20:19:00.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+07-Feb-2023 20:19:00.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/temp
+07-Feb-2023 20:19:00.843 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/daimingyang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Feb-2023 20:19:00.957 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 20:19:00.971 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [213] milliseconds
+07-Feb-2023 20:19:00.986 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Feb-2023 20:19:00.986 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+07-Feb-2023 20:19:00.992 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war]
+07-Feb-2023 20:19:01.503 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2023 20:19:01.524 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'spring'
+07-Feb-2023 20:19:01.940 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 414 ms
+07-Feb-2023 20:19:01.946 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war] has finished in [954] ms
+07-Feb-2023 20:19:01.947 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs]
+07-Feb-2023 20:19:01.954 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs] has finished in [7] ms
+07-Feb-2023 20:19:01.954 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager]
+07-Feb-2023 20:19:01.970 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager] has finished in [16] ms
+07-Feb-2023 20:19:01.970 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples]
+07-Feb-2023 20:19:02.048 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples] has finished in [78] ms
+07-Feb-2023 20:19:02.049 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT]
+07-Feb-2023 20:19:02.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT] has finished in [7] ms
+07-Feb-2023 20:19:02.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager]
+07-Feb-2023 20:19:02.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager] has finished in [10] ms
+07-Feb-2023 20:19:02.067 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 20:19:02.075 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1103] milliseconds
+07-Feb-2023 20:19:32.923 WARNING [http-nio-8080-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /HomeWork2-1.0-SNAPSHOT/hello
+07-Feb-2023 20:25:46.770 WARNING [http-nio-8080-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /HomeWork2-1.0-SNAPSHOT/shopping
+07-Feb-2023 20:26:22.113 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Feb-2023 20:26:22.114 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 20:26:22.117 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Feb-2023 20:26:22.137 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 20:26:22.140 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 20:26:57.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+07-Feb-2023 20:26:57.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+07-Feb-2023 20:26:57.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+07-Feb-2023 20:26:57.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Feb-2023 20:26:57.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6
+07-Feb-2023 20:26:57.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+07-Feb-2023 20:26:57.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/daimingyang/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home
+07-Feb-2023 20:26:57.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8-LTS
+07-Feb-2023 20:26:57.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+07-Feb-2023 20:26:57.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+07-Feb-2023 20:26:57.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+07-Feb-2023 20:26:57.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Feb-2023 20:26:57.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Feb-2023 20:26:57.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Feb-2023 20:26:57.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Feb-2023 20:26:57.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Feb-2023 20:26:57.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/conf/logging.properties
+07-Feb-2023 20:26:57.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Feb-2023 20:26:57.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Feb-2023 20:26:57.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Feb-2023 20:26:57.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Feb-2023 20:26:57.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Feb-2023 20:26:57.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+07-Feb-2023 20:26:57.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+07-Feb-2023 20:26:57.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/temp
+07-Feb-2023 20:26:57.687 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/daimingyang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Feb-2023 20:26:57.812 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 20:26:57.827 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [235] milliseconds
+07-Feb-2023 20:26:57.844 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Feb-2023 20:26:57.844 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+07-Feb-2023 20:26:57.850 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war]
+07-Feb-2023 20:26:58.314 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2023 20:26:58.340 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'spring'
+07-Feb-2023 20:26:58.732 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 392 ms
+07-Feb-2023 20:26:58.739 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war] has finished in [889] ms
+07-Feb-2023 20:26:58.740 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs]
+07-Feb-2023 20:26:58.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs] has finished in [8] ms
+07-Feb-2023 20:26:58.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager]
+07-Feb-2023 20:26:58.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager] has finished in [16] ms
+07-Feb-2023 20:26:58.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples]
+07-Feb-2023 20:26:58.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples] has finished in [76] ms
+07-Feb-2023 20:26:58.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT]
+07-Feb-2023 20:26:58.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT] has finished in [6] ms
+07-Feb-2023 20:26:58.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager]
+07-Feb-2023 20:26:58.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager] has finished in [8] ms
+07-Feb-2023 20:26:58.856 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 20:26:58.865 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1038] milliseconds
+07-Feb-2023 20:27:16.411 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Feb-2023 20:27:16.415 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 20:27:16.422 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Feb-2023 20:27:16.437 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 20:27:16.448 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 20:27:17.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+07-Feb-2023 20:27:17.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+07-Feb-2023 20:27:17.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+07-Feb-2023 20:27:17.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Feb-2023 20:27:17.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6
+07-Feb-2023 20:27:17.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+07-Feb-2023 20:27:17.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/daimingyang/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home
+07-Feb-2023 20:27:17.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8-LTS
+07-Feb-2023 20:27:17.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+07-Feb-2023 20:27:17.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+07-Feb-2023 20:27:17.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+07-Feb-2023 20:27:17.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Feb-2023 20:27:17.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Feb-2023 20:27:17.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Feb-2023 20:27:17.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Feb-2023 20:27:17.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Feb-2023 20:27:17.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/conf/logging.properties
+07-Feb-2023 20:27:17.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Feb-2023 20:27:17.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Feb-2023 20:27:17.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Feb-2023 20:27:17.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Feb-2023 20:27:17.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Feb-2023 20:27:17.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+07-Feb-2023 20:27:17.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27
+07-Feb-2023 20:27:17.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/temp
+07-Feb-2023 20:27:17.400 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/daimingyang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Feb-2023 20:27:17.514 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 20:27:17.528 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [209] milliseconds
+07-Feb-2023 20:27:17.543 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Feb-2023 20:27:17.543 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+07-Feb-2023 20:27:17.549 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war]
+07-Feb-2023 20:27:17.974 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2023 20:27:17.997 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'spring'
+07-Feb-2023 20:27:18.392 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 394 ms
+07-Feb-2023 20:27:18.398 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war] has finished in [849] ms
+07-Feb-2023 20:27:18.398 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs]
+07-Feb-2023 20:27:18.406 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/docs] has finished in [8] ms
+07-Feb-2023 20:27:18.406 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager]
+07-Feb-2023 20:27:18.423 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/manager] has finished in [17] ms
+07-Feb-2023 20:27:18.423 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples]
+07-Feb-2023 20:27:18.514 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/examples] has finished in [91] ms
+07-Feb-2023 20:27:18.514 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT]
+07-Feb-2023 20:27:18.521 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/ROOT] has finished in [7] ms
+07-Feb-2023 20:27:18.521 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager]
+07-Feb-2023 20:27:18.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/host-manager] has finished in [18] ms
+07-Feb-2023 20:27:18.541 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 20:27:18.547 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1019] milliseconds
+07-Feb-2023 20:29:58.761 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT 2]
+07-Feb-2023 20:29:59.115 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2023 20:29:59.123 INFO [Catalina-utility-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'spring'
+07-Feb-2023 20:29:59.400 INFO [Catalina-utility-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 277 ms
+07-Feb-2023 20:29:59.401 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT 2] has finished in [641] ms
+07-Feb-2023 21:42:04.671 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HomeWork2-1.0-SNAPSHOT]
+07-Feb-2023 21:42:15.237 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HomeWork2-1.0-SNAPSHOT 2]
+07-Feb-2023 21:42:15.267 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war]
+07-Feb-2023 21:42:16.359 WARNING [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+07-Feb-2023 21:42:16.372 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2023 21:42:16.688 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war] has finished in [1,421] ms
+07-Feb-2023 21:42:27.207 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HomeWork2-1.0-SNAPSHOT]
+07-Feb-2023 21:42:27.277 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war]
+07-Feb-2023 21:42:28.347 WARNING [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+07-Feb-2023 21:42:28.359 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2023 21:42:28.658 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2-1.0-SNAPSHOT.war] has finished in [1,381] ms
+07-Feb-2023 21:42:39.169 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HomeWork2-1.0-SNAPSHOT]
+07-Feb-2023 21:42:39.182 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2.war]
+07-Feb-2023 21:42:40.153 WARNING [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+07-Feb-2023 21:42:40.166 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2023 21:42:40.479 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/daimingyang/Documents/NEU/CSYE6220/apache-tomcat-10.0.27/webapps/HomeWork2.war] has finished in [1,297] ms
+07-Feb-2023 23:53:13.748 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+07-Feb-2023 23:53:23.042 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Feb-2023 23:53:23.043 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 23:53:23.047 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Feb-2023 23:53:23.077 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [HomeWork2] registered the JDBC driver [org.relique.jdbc.csv.CsvDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Feb-2023 23:53:23.088 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Feb-2023 23:53:23.102 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
