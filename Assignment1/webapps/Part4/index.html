@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part4</title>
+    <link rel="stylesheet" href="./part4.css">
+</head>
+<body>
+    <header>
+        <h1 class="header__heading1">Northeastern University</h1>
+        <h1 class="header__heading2">Tuition Waiver Form</h1>
+        <p>This form is used by part-time faculty, part-time staff, retirees, their spouses or domestic partners and their dependents.
+            All full-time faculty and staff should use the online Tuition Waiver Form found on myNEU. Before completing this form,
+            please refer to the Tuition Waiver Program Guidelines. Be sure to include a Dependent Certification Form along with
+            the submission of this form for any dependent children.</p>
+    </header>
+    <main>
+        <form action="Form Submitted" method="post">
+            <div class="section1">
+                <h2>Section 1</h2>
+                <div class="academic_term">
+                    Academic Term:
+                    <label for="academic_term--winter">
+                        <input type="radio" id="academic_term--winter" name="Academic Term" value="Winter">Winter
+                    </label>
+                    <label for="academic_term--spring">
+                        <input type="radio" id="academic_term--spring" name="Academic Term" value="Spring">Spring
+                    </label>
+                    <label for="academic_term--summer">
+                        <input type="radio" id="academic_term--summer" name="Academic Term" value="Summer">Summer
+                    </label>
+                </div>
+                <div class="accdemic_year">
+                    <label for="academic_year">
+                        Academic Year:
+                        <input type="text" id="academic_year" name="Academic Year">
+                    </label>
+                </div>
+                <div class="employee_status">
+                    Employee Status:
+                    <label for="P/T staff">
+                        <input type="radio" id="P/T staff" name="Employee Status" value="Part time Staff">P/T Staff
+                    </label>
+                    <label for="P/T faculty">
+                        <input type="radio" id="P/T faculty" name="Employee Status" value="Part time Faculty">P/T Faculty
+                    </label>
+                    <label for="retiree">
+                        <input type="radio" id="retiree" name="Employee Status" value="Retiree">Retiree
+                    </label>
+                    <label for="retiree">
+                        <input type="radio" id="retiree" name="Employee Status" value="Retiree">Retiree
+                    </label>                    
+                    <label for="other">
+                        <input type="radio" id="other" name="Employee Status" value="other">Other
+                        <label for="employee_status--other">
+                            <input type="text" id="employee_status--other" name="Other Status">
+                        </label>
+                    </label>
+                </div>
+                <p>*Terms with multiple sessions are considered one academic term for tuition waiver purposes e.g., summer sessions I and II are considered one academic term.</p>
+            </div>
+
+            <div class="section2">
+                <h2>Section 2</h2>
+                <div>
+                    <label for="student_name">
+                        Student's Name:
+                        <input type="text" id="student_name" name="Student's Name">
+                    </label>
+                    <label for="relationship_to_employee">
+                        Relationship to Employee:
+                        <input type="text" id="relationship_to_employee" name="Relationship to Employee">
+                    </label>
+                    <label for="student_NUID">
+                        Student's NUID:
+                        <input type="text" id="student_NUID" name="Student's NUID">
+                    </label>
+                </div>
+
+                <div>
+                    <label for="employee_name">
+                        Employee's Name(If different from Student's):
+                        <input type="text" id="employee_name" name="Employee's Name">
+                    </label>
+                    <label for="employee_NUID">
+                        Employee's NUID:
+                        <input type="text" id="employee_NUID" name="Employee's NUID">
+                    </label>
+                </div>
+
+                <div>
+                    <label for="department">
+                        Department:
+                        <input type="text" id="department" name="Department">
+                    </label>
+                    <label for="campus">
+                        Campus Location:
+                        <input type="text" id="campus" name="Campus Location">
+                    </label>
+                    <label for="phone_number">
+                        Phone Number:
+                        <input type="text" id="phone_number" name="Phone Number">
+                    </label>
+                    <label for="supervisor_name">
+                        Superviosr's Name:
+                        <input type="text" id="supervisor_name" name="Supervisor's Name">
+                    </label>
+                </div>
+
+            </div>
+            
+            <div class="section3">
+                <h2>Section 3</h2>
+                <div class="school_or_program">
+                    Indicate the applicable school or program:
+                    <label for="undergraduate program">
+                        <input type="radio" id="undergraduate program" name="Applicable School or Program" value="Undergraduate Program">Undergraduate Program
+                    </label>
+                    <label for="law school">
+                        <input type="radio" id="law school"name="Applicable School or Program" value="Law School (excludes employees)">Law School (excludes employees)
+                    </label>
+                    <label for="doctoral candidate">
+                        <input type="radio" id="doctoral candidate" name="Applicable School or Program" value="Doctoral Candidate">Doctoral Candidate
+                    </label>
+                    <label for="CPS Undergraduate">
+                        <input type="radio" id="CPS Undergraduate" name="Applicable School or Program" value="College of Professional Studies (CPS) Undergraduate">College of Professional Studies (CPS) Undergraduate
+                    </label>
+                    <label for="graduate school">
+                        <input type="radio" id="graduate school" name="Applicable School or Program" value="Graduate School">Graduate School
+                    </label>
+                    <label for="CPS graduate school">
+                        <input type="radio" id="CPS graduate school" name="Applicable School or Program" value="CPS Graduate School">CPS Graduate School
+                    </label>
+                </div>
+                <p>One course per academic term may be taken one-half hour before the end of your workday. If this applies to you, this
+                    form must be signed by your supervisor below and approved by Human Resources Management.</p>
+                <p>Complete the following course information. If you are an employee taking a job related course, please attach the Job
+                    Related Designation Form to this waiver. </p>
+                <div>
+                    <label for="course1 no">
+                        Course No.:
+                        <input type="text" id="course1 no" name="Course1 No.">
+                    </label>
+                    <label for="course1 name">
+                        Course Name:
+                        <input type="text" id="course1 name" name="Course1 Name">
+                    </label>
+                    <label for="supervisor signature1">
+                        Supervisor Signature:
+                        <input type="text" id="supervisor signature1" name="Course1 Supervisor Signature">
+                    </label>
+                    <label for="credit hours1">
+                        Credit Hrs.:
+                        <input type="text" id="credit hours1" name="Course1 Credit Hours">
+                    </label>
+                    <label for="course1 days">
+                        Day(s):
+                        <input type="text" id="course1 days" name="Course1 Days">
+                    </label>
+                    <label for="time1">
+                        Time(a.m./p.m.):
+                        <input type="text" id="time1" name="Course1 Time(a.m./p.m.)">
+                    </label>
+                </div>
+                <div>
+                    <label for="course2 no">
+                        Course2 No.:
+                        <input type="text" id="course2 no" name="Course2 No.">
+                    </label>
+                    <label for="course2 name">
+                        Course2 Name:
+                        <input type="text" id="course2 name" name="Course2 Name">
+                    </label>
+                    <label for="supervisor signature2">
+                        Supervisor Signature:
+                        <input type="text" id="supervisor signature2" name="Course2 Supervisor Signature">
+                    </label>
+                    <label for="credit hours2">
+                        Credit Hrs.:
+                        <input type="text" id="credit hours2" name="Course2 Credit Hours">
+                    </label>
+                    <label for="course2 days">
+                        Day(s):
+                        <input type="text" id="course2 days" name="Course2 Days">
+                    </label>
+                    <label for="time2">
+                        Time(a.m./p.m.):
+                        <input type="text" id="time2" name="Course2 Time(a.m./p.m.):">
+                    </label>
+                </div>
+                <div>
+                    <label for="course3 no">
+                        Course3 No.:
+                        <input type="text" id="course3 no" name="Course3 No.">
+                    </label>
+                    <label for="course3 name">
+                        Course Name:
+                        <input type="text" id="course3 name" name="Course3 Name">
+                    </label>
+                    <label for="supervisor signature3">
+                        Supervisor Signature:
+                        <input type="text" id="supervisor signature3" name="Course3 Supervisor Signature">
+                    </label>
+                    <label for="credit hours3">
+                        Credit Hrs.:
+                        <input type="text" id="credit hours3" name="Course3 Credit Hours">
+                    </label>
+                    <label for="course3 days">
+                        Day(s):
+                        <input type="text" id="course3 days" name="Course3 Days">
+                    </label>
+                    <label for="time">
+                        Time(a.m./p.m.):
+                        <input type="text" id="time" name="Course3 Time(a.m./p.m.)">
+                    </label>
+                </div>
+            </div>
+
+            <div class="section4">
+                <h2>Section 4</h2>
+                <p>In accordance with Northeastern University's Tuition Waiver Program Guidelines, my signature attests that I am
+                    currently enrolled in the above courses, or that the student listed above is my spouse, domestic partner or
+                    unmarried dependent child or the dependent child of my domestic partner as defined under current IRS tax
+                    regulations. I also certify that I have read the Tuition Waiver Program Guidelines.
+                </p>
+                <div>
+                    <label for="employee signature">
+                        Employee's signature:
+                        <input type="text" id="employee signature" name="Employee's Signature">
+                    </label>
+                    <label for="employee signature date">
+                        Date:
+                        <input type="date" id="employee signature date" name="Employee's Signature Date">
+                    </label>
+                </div>
+            </div>
+
+            <div class="section5">
+                <h2>Section 5</h2>
+                <div>
+                    <label for="hrm approval">
+                        HRM Approval:
+                        <input type="text" id="hrm approval" name="HRM Approval">
+                    </label>
+                    <label for="hrm approval date">
+                        Date:
+                        <input type="date" id="hrm approval date" name="HRM Approval Date">
+                    </label>
+                </div>
+                <p>Forms will be reviewed for completeness and eligibility. You will be notified if any additional information is needed. Mail completed form to
+                    Human Resources, 250 Columbus Place or fax to (617) 373-7610. All waivers must be received by HRM within 30 days
+                    of the course start date. </p>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+
+    </main>
+    <footer>
+        <h1>HRNAVIGATOR</h1>
+    </footer>
+    
+</body>
+</html>

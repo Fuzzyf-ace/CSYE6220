@@ -1,0 +1,12 @@
+<web-app>
+    <servlet>
+        <servlet-name>part4</servlet-name>
+        <servlet-class>Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>part4</servlet-name>
+        <url-pattern>/Form Submitted</url-pattern>
+    </servlet-mapping>
+
+</web-app>

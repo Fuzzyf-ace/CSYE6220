@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part3</title>
+    <link rel="stylesheet" href="./part3.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <form action="Form Submitted" method="post">
+            <div>
+                <label for="email">
+                    Email:<input type="text" id="email" name="email">
+                </label>
+            </div>
+
+            <div>
+                <label for="password">
+                    Password: <input type="password" id="password" name="password">
+                </label>
+            </div>
+
+            <div>
+                <label for="confirm_password">
+                    Confirm Password: <input type="password" id="confirm_password" name="confirm_password">
+                </label>
+            </div>
+
+            <div>
+                <label for="uploaded picture">
+                    Upload Your Picture: <input type="file" id="uploaded picture" name="picture" accept="image/*">
+                </label>
+            </div>
+
+            <div class="gender">
+                Gender: 
+                <label for="gender__male">
+                    <input type="radio" id="gender__male" value="male" name="gender">Male
+                </label>
+                <label for="fegender__male">
+                    <input type="radio" id="gender__female" value="female" name="gender">Female
+                </label>
+            </div>
+
+            <div>
+                <label for="country-select">Select Country:</label>
+                <select name="country" id="country-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="China">China</option>
+                    <option value="United States">United States</option>
+                    <option value="Indian">Indian</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="United Kindom">United Kindom</option>
+                </select>
+            </div>
+
+            <div>
+                Hobby: 
+                <label for="football">
+                     <input type="checkbox" id="cricket" name="hobby" value="cricket">Cricket
+                </label>
+                <label for="football">
+                    <input type="checkbox" id="football" name="hobby" value="football">Football
+               </label>
+
+            </div>
+
+            <div>
+                <label for="address">
+                    Address: <input type="text" id="address" name="address">
+                </label>
+            </div>
+
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
