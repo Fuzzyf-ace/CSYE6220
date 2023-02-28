@@ -10,27 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ed9a227-0385-41df-a139-803235e8840d" name="Changes" comment="HomeWork4/part7">
-      <change afterPath="$PROJECT_DIR$/../part8/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/src/main/java/com/daiming/part8/Part8Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/src/main/java/com/daiming/part8/RandomStringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/src/main/webapp/WEB-INF/JSP/string.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/src/main/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part8/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HomeWork2" beforeDir="false" afterPath="$PROJECT_DIR$/../../HomeWork2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/daiming/part7/Part7Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daiming/part7/Part7Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../part8/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
